@@ -1,4 +1,4 @@
-# VPN Host | 6月3日18.1M/S|免费SSR/Shadowrocket/Clash/V2ray免费节点订阅分享  更新时间 2025-06-03 09:47:16
+# VPN Host | 6月8日23M/S|免费V2ray/Shadowrocket/SSR/Clash免费节点订阅分享  更新时间 2025-06-08 09:43:05
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnhost.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpnhost.github.io/uploads/2025/06/0-20250603.yaml
-- https://vpnhost.github.io/uploads/2025/06/1-20250603.yaml
-- https://vpnhost.github.io/uploads/2025/06/2-20250603.yaml
-- https://vpnhost.github.io/uploads/2025/06/3-20250603.yaml
-- https://vpnhost.github.io/uploads/2025/06/4-20250603.yaml
+- https://vpnhost.github.io/uploads/2025/06/0-20250608.yaml
+- https://vpnhost.github.io/uploads/2025/06/1-20250608.yaml
+- https://vpnhost.github.io/uploads/2025/06/2-20250608.yaml
+- https://vpnhost.github.io/uploads/2025/06/3-20250608.yaml
+- https://vpnhost.github.io/uploads/2025/06/4-20250608.yaml
 
 ### V2ray订阅链接
 
-- https://vpnhost.github.io/uploads/2025/06/0-20250603.txt
-- https://vpnhost.github.io/uploads/2025/06/1-20250603.txt
-- https://vpnhost.github.io/uploads/2025/06/2-20250603.txt
-- https://vpnhost.github.io/uploads/2025/06/3-20250603.txt
-- https://vpnhost.github.io/uploads/2025/06/4-20250603.txt
+- https://vpnhost.github.io/uploads/2025/06/0-20250608.txt
+- https://vpnhost.github.io/uploads/2025/06/1-20250608.txt
+- https://vpnhost.github.io/uploads/2025/06/2-20250608.txt
+- https://vpnhost.github.io/uploads/2025/06/3-20250608.txt
+- https://vpnhost.github.io/uploads/2025/06/4-20250608.txt
 
 ### Sing-box订阅链接
 
-- https://vpnhost.github.io/uploads/2025/06/20250603.json
+- https://vpnhost.github.io/uploads/2025/06/20250608.json
 
 ## 更多clash节点订阅 ：
 
