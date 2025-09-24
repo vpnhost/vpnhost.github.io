@@ -62,7 +62,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                                 <a class="navbar-brand" href="/">
-                        VPN Host                    </a>
+                        VPN Host 免费节点分享                    </a>
                                 <button class="navbar-toggler bg-gradient collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa icon-expand fa-bars"></span>
                     <span class="fa icon-close fa-times"></span>
@@ -109,7 +109,7 @@ $(function() {
             <div class="container">
                 <div class="main-titles-head text-center">
                     <h1 class="header-name" style="word-break: break-all;">
-                        VPN Host | 8月26日19.7M/S|免费Shadowrocket/SSR/V2ray/Clash免费节点订阅分享                    </h1>
+                        VPN Host | 8月26日19.7M/S|免费Shadowrocket节点/SSR/V2ray节点/Clash免费节点订阅分享                    </h1>
                     
                 </div>
             </div>
@@ -160,8 +160,8 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><p>&nbsp;</p><p></p><h2>订阅文件链接</h2><p>&nbsp;</p><p><strong>Clash订阅链接</strong></p><p>https://vpnhost.github.io/uploads/2025/08/2-20250826.yaml</p><p>https://vpnhost.github.io/uploads/2025/08/3-20250826.yaml</p><p>https://vpnhost.github.io/uploads/2025/08/4-20250826.yaml</p><p>&nbsp;</p><p><strong>V2ray订阅链接:</strong></p><p>https://vpnhost.github.io/uploads/2025/08/0-20250826.txt</p><p>https://vpnhost.github.io/uploads/2025/08/3-20250826.txt</p><p><strong>Sing-Box订阅链接</strong></p><p>https://vpnhost.github.io/uploads/2025/08/20250826.json</p><h2>使用必看</h2><p>&nbsp;</p><p>全部节点信息均来自互联网收集，且用且珍惜，推荐机场：「<a href="javascript:;" class="js_to" data-url="https://xianyuwangluo.top/#/register?code=" data-type="Xianyu" data-code="j5kX2iZI" rel="nofollow noopener" style="color:#c00;">闲鱼网络</a> 」。仅针对用于学习研究的用户分享，请勿随意传播其他信息。免费节点有效时间比较短，遇到失效是正常现象。</p><h2>突破网络边界：科学上网输入配置全攻略与深度解析</h2>  <h2>引言：当网络遇见边界</h2>  <p>在信息自由流动的互联网时代，地域限制如同无形的数字高墙，将全球网络割裂成碎片化的信息孤岛。科学上网技术应运而生，成为无数网民探索无界网络的关键钥匙。而在这把钥匙中，<strong>输入配置</strong>无疑是其中最精密的齿纹——它直接决定了连接的成功率、速度表现与安全等级。本文将带您深入科学上网的配置世界，从工具选择到参数设定，从安全防护到故障排查，为您呈现一份详尽的数字突围指南。  </p>  <hr />  <h2>第一章 科学上网的核心逻辑</h2>  <p>科学上网的本质是<strong>通过技术手段重构网络路径</strong>。当常规连接被阻断时，配置得当的工具能建立一条加密隧道，将您的访问请求先发送到境外服务器，再由该服务器代为访问目标网站并返回数据。这一过程涉及三个关键要素：  </p>  <ol> <li><strong>协议选择</strong>（如SS/SSR/V2Ray/Trojan）  </li> <li><strong>服务器节点</strong>（地理位置与网络质量）  </li> <li><strong>客户端配置</strong>（参数准确性与加密方式）  </li> </ol>  <p>正如航海需要精确的星图，科学上网的成功始于对配置参数的透彻理解。  </p>  <hr />  <h2>第二章 主流工具配置详解</h2>  <h3>2.1 VPN：传统而稳健的解决方案</h3>  <p><strong>配置流程</strong>：<br /> 1. 在官网下载对应客户端（推荐OpenVPN/WireGuard）<br /> 2. 获取提供商分配的<code>服务器地址/用户名/密钥</code><br /> 3. 在客户端输入端口号（如1194 UDP）与加密协议<br /> 4. 启用"kill switch"功能防止意外断连泄露真实IP  </p>  <blockquote>   <p><em>技术点评</em>：VPN如同网络世界的装甲车，其IPSec/IKEv2协议能提供军用级加密，但特征明显的流量在严格审查环境下易被识别。  </p> </blockquote>  <h3>2.2 Shadowsocks：轻量级加密代理</h3>  <p><strong>关键配置项</strong>：<br /> <code>json {   "server":"xxx.xxx.xxx.xxx",   "server_port":443,   "password":"your_encryption_key",   "method":"aes-256-gcm",   "plugin":"obfs-local",   "plugin_opts":"obfs=http;obfs-host=cloudflare.com" }</code><br /> <em>配置要点</em>：<br /> - 优先选择AEAD加密算法（如ChaCha20）<br /> - 配合obfs混淆插件可伪装成普通HTTPS流量<br /> - 移动端推荐使用Surfboard/Sagernet管理配置  </p>  <h3>2.3 V2Ray：模块化流量伪装大师</h3>  <p><strong>进阶配置技巧</strong>：<br /> - 使用VLESS协议替代VMess以降低特征检测<br /> - 配置CDN中转隐藏真实服务器IP<br /> - 启用mKCP加速改善高延迟环境表现  </p>  <p>示例：通过<code>/etc/v2ray/config.json</code>实现WebSocket+TLS伪装：<br /> <code>javascript "inbounds": [{   "port": 443,   "protocol": "vmess",   "streamSettings": {     "network": "ws",     "security": "tls",     "wsSettings": {"path": "/your_custom_path"}   } }]</code></p>  <hr />  <h2>第三章 安全配置的黄金法则</h2>  <h3>3.1 防DNS泄露配置</h3>  <ul> <li>在VPN设置中强制使用提供商的DNS（如1.1.1.1）  </li> <li>Windows用户需关闭IPv6防止请求绕过代理  </li> </ul>  <h3>3.2 端口策略优化</h3>  <p>| 端口号 | 协议   | 伪装程度 |<br /> |--------|--------|----------|<br /> | 443    | TLS    | ★★★★★    |<br /> | 80     | HTTP   | ★★★☆☆    |<br /> | 随机端口 | 自定义 | ★★☆☆☆    |  </p>  <h3>3.3 双重验证机制</h3>  <p>推荐为代理服务启用TOTP动态验证，例如：<br /> <code>v2ray-plugin enable_totp=true</code>  </p>  <hr />  <h2>第四章 移动端配置的特殊考量</h2>  <p>Android系统需注意：<br /> - 关闭"始终开启VPN"避免特征检测<br /> - 使用Clash for Android实现多协议共存<br /> iOS用户建议：<br /> - 选择支持NEKit框架的客户端（如Shadowrocket）<br /> - 配置本地PAC规则实现智能分流  </p>  <hr />  <h2>第五章 故障排查：从红叉到绿灯</h2>  <p>当连接失败时，按此流程排查：<br /> 1. <strong>基础检查</strong>：确认订阅未过期/设备网络正常<br /> 2. <strong>日志分析</strong>：查看客户端错误日志（如V2Ray的<code>access.log</code>）<br /> 3. <strong>协议测试</strong>：更换TCP/WebSocket等传输方式<br /> 4. <strong>终极方案</strong>：使用<code>tcping</code>工具检测端口连通性  </p>  <hr />  <h2>结语：在自由与安全的平衡木上</h2>  <p>科学上网配置既是技术活，更是一场持续的安全博弈。随着深度包检测（DPI）技术的进化，今天的有效配置可能明天就会失效。这要求我们：<br /> - 保持对协议更新的敏感度<br /> - 建立多层级的备用方案<br /> - 始终将隐私保护置于速度追求之上  </p>  <p>正如互联网先驱约翰·佩里·巴洛在《网络空间独立宣言》中所言："我们正在创造一个新世界，在那里，任何人都能随时随地表达信仰。"而正确的输入配置，正是这个新世界的通关文牒——它不该是高墙下的无奈妥协，而应成为每个数字公民自主选择的权力彰显。  </p>  <blockquote>   <p><em>终极建议</em>：将本文所述配置与Tails OS或Qubes OS结合使用，可构建企业级的安全访问环境。记住，最强大的工具永远不是某个具体软件，而是您持续学习的安全意识。</p> </blockquote>                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-12 mt-5">
-                                        <p>上一个：<a href="/free-nodes/2025-8-25-node-share.htm">VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket/Clash/V2ray免费节点订阅分享</a></p>
-                                        <p>下一个：<a href="/free-nodes/2025-8-27-vpn-free.htm">VPN Host | 8月27日21.9M/S|免费SSR/V2ray/Clash/Shadowrocket免费节点订阅分享</a></p>
+                                        <p>上一个：<a href="/free-nodes/2025-8-25-node-share.htm">VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket节点/Clash节点/V2ray免费节点订阅分享</a></p>
+                                        <p>下一个：<a href="/free-nodes/2025-8-27-vpn-free.htm">VPN Host | 8月27日21.9M/S|免费SSR/V2ray节点/Clash节点/Shadowrocket免费节点订阅分享</a></p>
                                     </div>
                                 <div class="panel panel-default mt-5">
                     <div class="panel-heading">
@@ -169,10 +169,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
                     </div>
                     <div class="panel-body">
                         <ul class="p-0 x-0">
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-25-node-share.htm">VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket/Clash/V2ray免费节点订阅分享</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-24-free-vpn.htm">VPN Host | 8月24日22.2M/S|免费Clash/SSR/V2ray/Shadowrocket免费节点订阅分享</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-22-share-vpn.htm">VPN Host | 8月22日19.8M/S|免费SSR/Clash/Shadowrocket/V2ray免费节点订阅分享</a></li>
-                                                        <li class="py-2"><a href="/free-nodes/2025-8-21-vpn-github.htm">VPN Host | 8月21日21.5M/S|免费Shadowrocket/Clash/V2ray/SSR免费节点订阅分享</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-25-node-share.htm">VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket节点/Clash节点/V2ray免费节点订阅分享</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-24-free-vpn.htm">VPN Host | 8月24日22.2M/S|免费Clash节点/SSR/V2ray节点/Shadowrocket免费节点订阅分享</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-22-share-vpn.htm">VPN Host | 8月22日19.8M/S|免费SSR/Clash节点/Shadowrocket节点/V2ray免费节点订阅分享</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-8-21-vpn-github.htm">VPN Host | 8月21日21.5M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR免费节点订阅分享</a></li>
                                                         <li class="py-2"><a href="/free-nodes/2025-7-28-free-v2ray.htm">ClashPro免费节点 | 7月28日20.8M/S|免费SSR/V2ray/Clash/Shadowrocket订阅节点分享</a></li>
                                                         <li class="py-2"><a href="/free-nodes/2025-7-27-free-subscribe-node.htm">ClashPro免费节点 | 7月27日18.7M/S|免费V2ray/SSR/Shadowrocket/Clash订阅节点分享</a></li>
                                                         <li class="py-2"><a href="/free-nodes/2025-7-26-node-share.htm">ClashPro免费节点 | 7月26日20.3M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点分享</a></li>
@@ -190,16 +190,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-7-21-node-share.htm" title="ClashPro免费节点 | 7月21日20.5M/S|免费V2ray/SSR/Clash/Shadowrocket订阅节点分享">ClashPro免费节点 | 7月21日20.5M/S|免费V2ray/SSR/Clash/Shadowrocket订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-6-free-v2ray-subscribe.htm" title="ClashPro免费节点 | 7月6日22.9M/S|免费SSR/Shadowrocket/Clash/V2ray订阅节点分享">ClashPro免费节点 | 7月6日22.9M/S|免费SSR/Shadowrocket/Clash/V2ray订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-27-free-subscribe-node.htm" title="ClashPro免费节点 | 7月27日18.7M/S|免费V2ray/SSR/Shadowrocket/Clash订阅节点分享">ClashPro免费节点 | 7月27日18.7M/S|免费V2ray/SSR/Shadowrocket/Clash订阅节点分享</a></li>
-                        <li class="py-2"><a href="/news/article-139585.htm" title="隐匿与革新：V2Ray创始人的技术理想与全球网络自由之战">隐匿与革新：V2Ray创始人的技术理想与全球网络自由之战</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-26-node-share.htm" title="ClashPro免费节点 | 7月26日20.3M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点分享">ClashPro免费节点 | 7月26日20.3M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-20-free-node-subscribe-links.htm" title="ClashPro免费节点 | 7月20日21.9M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点分享">ClashPro免费节点 | 7月20日21.9M/S|免费Clash/SSR/Shadowrocket/V2ray订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-8-free-node-subscribe-links.htm" title="ClashPro免费节点 | 7月8日18.1M/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享">ClashPro免费节点 | 7月8日18.1M/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-8-24-free-vpn.htm" title="VPN Host | 8月24日22.2M/S|免费Clash/SSR/V2ray/Shadowrocket免费节点订阅分享">VPN Host | 8月24日22.2M/S|免费Clash/SSR/V2ray/Shadowrocket免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-7-18-node-share.htm" title="ClashPro免费节点 | 7月18日22.4M/S|免费SSR/Clash/Shadowrocket/V2ray订阅节点分享">ClashPro免费节点 | 7月18日22.4M/S|免费SSR/Clash/Shadowrocket/V2ray订阅节点分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-8-25-node-share.htm" title="VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket/Clash/V2ray免费节点订阅分享">VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket/Clash/V2ray免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-15-vpn-free.htm" title="VPN Host | 9月15日20.1M/S|免费Shadowrocket节点/V2ray节点/Clash节点/SSR免费节点订阅分享">VPN Host | 9月15日20.1M/S|免费Shadowrocket节点/V2ray节点/Clash节点/SSR免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-26-vpn-free.htm" title="VPN Host | 8月26日19.7M/S|免费Shadowrocket节点/SSR/V2ray节点/Clash免费节点订阅分享">VPN Host | 8月26日19.7M/S|免费Shadowrocket节点/SSR/V2ray节点/Clash免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-19-mianfei-vpn.htm" title="VPN Host | 9月19日20.1M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash免费节点订阅分享">VPN Host | 9月19日20.1M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-10-free-node-subscribe.htm" title="VPN Host | 9月10日19.5M/S|免费SSR/V2ray节点/Clash节点/Shadowrocket免费节点订阅分享">VPN Host | 9月10日19.5M/S|免费SSR/V2ray节点/Clash节点/Shadowrocket免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/news/article-142016.htm" title="透明代理的革命：Clash透明代理全方位解析与实战指南">透明代理的革命：Clash透明代理全方位解析与实战指南</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-31-node-share.htm" title="VPN Host | 8月31日19.8M/S|免费Clash节点/SSR/V2ray节点/Shadowrocket免费节点订阅分享">VPN Host | 8月31日19.8M/S|免费Clash节点/SSR/V2ray节点/Shadowrocket免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-29-free-node-subscribe.htm" title="VPN Host | 8月29日20.1M/S|免费SSR/Shadowrocket节点/V2ray节点/Clash免费节点订阅分享">VPN Host | 8月29日20.1M/S|免费SSR/Shadowrocket节点/V2ray节点/Clash免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-4-top-vpn-node.htm" title="VPN Host | 9月4日19.7M/S|免费Clash节点/Shadowrocket节点/SSR/V2ray免费节点订阅分享">VPN Host | 9月4日19.7M/S|免费Clash节点/Shadowrocket节点/SSR/V2ray免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-8-25-node-share.htm" title="VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket节点/Clash节点/V2ray免费节点订阅分享">VPN Host | 8月25日19.2M/S|免费SSR/Shadowrocket节点/Clash节点/V2ray免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/news/article-145275.htm" title="剪贴板导入v2ray配置频频失败？一文彻底解决你的困扰">剪贴板导入v2ray配置频频失败？一文彻底解决你的困扰</a></li>
                     </ul>
     </div>
 </div>
@@ -211,10 +211,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">30</span> <a href="/date/2025-08/" title="2025-08 归档">2025-08</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-09/" title="2025-09 归档">2025-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">24</span> <a href="/date/2025-07/" title="2025-07 归档">2025-07</a></h4>
+                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-08/" title="2025-08 归档">2025-08</a></h4>
             </li>
                     </ul>
     </div>
@@ -232,7 +232,8 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         <section class="w3l-footer-29-main w3l-copyright">
         <div class="container">
             <div class="row bottom-copies">
-                                    <p>
+                                    <p>本站内容仅供学习与技术研究用途，无意传播或倡导任何违反法律法规的行为。在此声明：用户须自行了解所在地法律法规，合法合规使用；因使用不当产生的法律责任，与本站及作者无关；请在使用前仔细阅读本声明，继续使用即视为同意以上条款。</p>
+                    <p>
                                                 <a href="/">首页</a> |
                                                 <a href="/free-nodes/">免费节点</a> |
                                                 <a href="/paid-subscribe/">推荐机场</a> |
@@ -243,7 +244,7 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
                         <a href="/privacy.htm">隐私申明</a> |
                         <a href="/sitemap.xml">网站地图</a>
                     </p>
-                <p class="col-lg-8 copy-footer-29">
+                                    <p class="col-lg-8 copy-footer-29">
                     VPN Host 节点机场订阅中文站 版权所有
                     <br />
                     Powered by WordPress
