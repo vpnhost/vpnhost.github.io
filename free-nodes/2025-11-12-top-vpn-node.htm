@@ -161,47 +161,18 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2025-11-11-free-vpn.htm">VPN Host | 11月11日21.2M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点免费节点订阅分享</a></p>
+        <p>下一个：<a href="/free-nodes/2025-11-13-node-share-links.htm">VPN Host | 11月13日20.3M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点免费节点订阅分享</a></p>
     </div>
 <h4>FAQ</h4>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 混淆方式如何提高抗封锁能力？</h5></div>
-    <div class="panel-body">
-        SSR 混淆可将流量伪装成正常 HTTPS 或 HTTP 数据，降低被 DPI 检测风险。合理选择协议和混淆参数组合，可以提高节点稳定性和长期可用性，保证科学上网体验顺畅。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>何为 multiplex (mux)，启用后会有哪些利弊？</h5></div>
-    <div class="panel-body">
-        mux 是多路复用技术，可在单一连接上传输多路流量，从而减少握手次数与连接开销。优点是提升短连接并发效率，缺点是在丢包或单连接异常时可能影响多条会话并增加调试复杂度。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何按端口分流不同类型流量？</h5></div>
-    <div class="panel-body">
-        Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组可实现精准分流，提高访问速度和网络稳定性，优化整体网络体验和管理效率。<hr />    </div>
-</div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 的 Rule Provider 有什么作用？</h5></div>
     <div class="panel-body">
         Rule Provider 是 Clash 的规则分发机制。用户可以订阅不同的规则集，比如广告拦截、社交媒体、流媒体等，实现按需加载。它让配置文件更加简洁、动态更新，并支持多源规则管理。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 协议如何提高节点隐蔽性？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 如何按端口匹配流量分配节点？</h5></div>
     <div class="panel-body">
-        SSR 可通过选择协议和混淆方式伪装流量，降低被 DPI 检测和封锁风险。合理配置可增强节点隐蔽性和长期稳定性，保证科学上网体验顺畅可靠。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 可以替换 Clash 的 YAML 配置吗？</h5></div>
-    <div class="panel-body">
-        可以。Sing-box 原生支持解析 Clash YAML 配置，并自动转换为自身 JSON 结构。节点和规则基本兼容，但部分脚本和自定义插件可能需要手动调整。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 的策略组可以根据延迟自动切换节点吗？</h5></div>
-    <div class="panel-body">
-        支持。Surfboard 可定期测速节点延迟，并结合策略组自动选择延迟最低的节点。这样用户无需手动切换节点即可保持高速访问，提高网络体验和稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS 的 Flow 参数有什么作用？</h5></div>
-    <div class="panel-body">
-        Flow 参数用于控制 VLESS 的传输模式，如 XTLS Vision 或 Reality 模式。它能影响性能、安全性与兼容性，需根据客户端支持情况正确匹配配置。<hr />    </div>
+        Sing-box 支持按端口匹配流量，将不同应用的流量分配到指定节点。结合策略组使用，可实现精准分流，优化访问速度和网络稳定性，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Trojan TLS 伪装域名如何提高抗封锁能力？</h5></div>
@@ -209,9 +180,39 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         通过选择真实可访问域名并使用有效证书，Trojan 流量可以完全模拟 HTTPS 请求。隐藏真实流量特征，降低被封锁和 DPI 检测风险，保证节点长期可用。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何按端口匹配流量分配节点？</h5></div>
+    <div class="panel-heading"><h5>SSR 协议如何提高节点隐蔽性？</h5></div>
     <div class="panel-body">
-        Sing-box 支持按端口匹配流量，将不同应用的流量分配到指定节点。结合策略组使用，可实现精准分流，优化访问速度和网络稳定性，提高整体网络体验。    </div>
+        SSR 可通过选择协议和混淆方式伪装流量，降低被 DPI 检测和封锁风险。合理配置可增强节点隐蔽性和长期稳定性，保证科学上网体验顺畅可靠。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>VLESS 的 Flow 参数有什么作用？</h5></div>
+    <div class="panel-body">
+        Flow 参数用于控制 VLESS 的传输模式，如 XTLS Vision 或 Reality 模式。它能影响性能、安全性与兼容性，需根据客户端支持情况正确匹配配置。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 如何按端口分流不同类型流量？</h5></div>
+    <div class="panel-body">
+        Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组可实现精准分流，提高访问速度和网络稳定性，优化整体网络体验和管理效率。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 可以替换 Clash 的 YAML 配置吗？</h5></div>
+    <div class="panel-body">
+        可以。Sing-box 原生支持解析 Clash YAML 配置，并自动转换为自身 JSON 结构。节点和规则基本兼容，但部分脚本和自定义插件可能需要手动调整。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>何为 multiplex (mux)，启用后会有哪些利弊？</h5></div>
+    <div class="panel-body">
+        mux 是多路复用技术，可在单一连接上传输多路流量，从而减少握手次数与连接开销。优点是提升短连接并发效率，缺点是在丢包或单连接异常时可能影响多条会话并增加调试复杂度。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 混淆方式如何提高抗封锁能力？</h5></div>
+    <div class="panel-body">
+        SSR 混淆可将流量伪装成正常 HTTPS 或 HTTP 数据，降低被 DPI 检测风险。合理选择协议和混淆参数组合，可以提高节点稳定性和长期可用性，保证科学上网体验顺畅。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 的策略组可以根据延迟自动切换节点吗？</h5></div>
+    <div class="panel-body">
+        支持。Surfboard 可定期测速节点延迟，并结合策略组自动选择延迟最低的节点。这样用户无需手动切换节点即可保持高速访问，提高网络体验和稳定性。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -240,16 +241,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-10-6-vpn-free.htm" title="VPN Host | 10月6日20.7M/S|免费V2ray节点/Singbox节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月6日20.7M/S|免费V2ray节点/Singbox节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-5-node-share-links.htm" title="VPN Host | 10月5日22.8M/S|免费Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月5日22.8M/S|免费Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-17-vpn-node.htm" title="VPN Host | 10月17日22.2M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月17日22.2M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-31-free-node-subscribe-links.htm" title="VPN Host | 10月31日19.1M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点免费节点订阅分享">VPN Host | 10月31日19.1M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-18-vpn-node.htm" title="VPN Host | 10月18日21.2M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点免费节点订阅分享">VPN Host | 10月18日21.2M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Singbox节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-6-free-vpn-node.htm" title="VPN Host | 11月6日22.4M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点免费节点订阅分享">VPN Host | 11月6日22.4M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-1-vpn-github.htm" title="VPN Host | 11月1日22.9M/S|免费Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点免费节点订阅分享">VPN Host | 11月1日22.9M/S|免费Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-27-share-vpn.htm" title="VPN Host | 10月27日19.2M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月27日19.2M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点免费节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-23-vpn-node.htm" title="VPN Host | 10月23日18.9M/S|免费Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点免费节点订阅分享">VPN Host | 10月23日18.9M/S|免费Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-2-vpn-node.htm" title="VPN Host | 11月2日21.9M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点免费节点订阅分享">VPN Host | 11月2日21.9M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-14-top-vpn.htm" title="VPN Host | 10月14日22.1M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点免费节点订阅分享">VPN Host | 10月14日22.1M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-19-node-share-links.htm" title="VPN Host | 11月19日22M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享">VPN Host | 11月19日22M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-3-free-vpn.htm" title="VPN Host | 10月3日20.5M/S|免费SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月3日20.5M/S|免费SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-11-top-vpn-node.htm" title="VPN Host | 10月11日21.8M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点免费节点订阅分享">VPN Host | 10月11日21.8M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点免费节点订阅分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-7-vpn-proxy.htm" title="VPN Host | 11月7日19.9M/S|免费Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点免费节点订阅分享">VPN Host | 11月7日19.9M/S|免费Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-13-vpn-free.htm" title="VPN Host | 10月13日21M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月13日21M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-9-free-vpn-node.htm" title="VPN Host | 10月9日20.2M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点免费节点订阅分享">VPN Host | 10月9日20.2M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-17-vpn-node.htm" title="VPN Host | 10月17日22.2M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享">VPN Host | 10月17日22.2M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点免费节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-20-free-vpn.htm" title="VPN Host | 10月20日18.9M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点免费节点订阅分享">VPN Host | 10月20日18.9M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点免费节点订阅分享</a></li>
                     </ul>
     </div>
 </div>
@@ -261,7 +262,7 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">12</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
