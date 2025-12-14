@@ -1,4 +1,4 @@
-# VPN Host | 12月6日20.1M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点免费节点订阅分享  更新时间 2025-12-06 13:04:00
+# VPN Host | 12月14日21.7M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点免费节点订阅分享  更新时间 2025-12-14 07:45:17
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnhost.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://vpnhost.github.io/uploads/2025/12/0-20251206.yaml
-- https://vpnhost.github.io/uploads/2025/12/1-20251206.yaml
-- https://vpnhost.github.io/uploads/2025/12/2-20251206.yaml
-- https://vpnhost.github.io/uploads/2025/12/3-20251206.yaml
-- https://vpnhost.github.io/uploads/2025/12/4-20251206.yaml
+- https://vpnhost.github.io/uploads/2025/12/0-20251214.yaml
+- https://vpnhost.github.io/uploads/2025/12/1-20251214.yaml
+- https://vpnhost.github.io/uploads/2025/12/2-20251214.yaml
+- https://vpnhost.github.io/uploads/2025/12/3-20251214.yaml
+- https://vpnhost.github.io/uploads/2025/12/4-20251214.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://vpnhost.github.io/uploads/2025/12/0-20251206.txt
-- https://vpnhost.github.io/uploads/2025/12/1-20251206.txt
-- https://vpnhost.github.io/uploads/2025/12/2-20251206.txt
-- https://vpnhost.github.io/uploads/2025/12/3-20251206.txt
-- https://vpnhost.github.io/uploads/2025/12/4-20251206.txt
+- https://vpnhost.github.io/uploads/2025/12/0-20251214.txt
+- https://vpnhost.github.io/uploads/2025/12/1-20251214.txt
+- https://vpnhost.github.io/uploads/2025/12/2-20251214.txt
+- https://vpnhost.github.io/uploads/2025/12/3-20251214.txt
+- https://vpnhost.github.io/uploads/2025/12/4-20251214.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://vpnhost.github.io/uploads/2025/12/20251206.json
+- https://vpnhost.github.io/uploads/2025/12/20251214.json
 
 ## 更多Clash节点订阅 ：
 
